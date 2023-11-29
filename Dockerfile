@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY server.py . 
 
-CMD ["python3", "server.py"]
+ENTRYPOINT ["python3", "server.py"]
